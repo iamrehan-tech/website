@@ -1,1 +1,289 @@
+/***********   dropdown **************/
+button.btn.dropdown-toggle{
+background: none;
+}
+.dropdown{
+margin-top: 7px;
+}
+button.btn.dropdown-toggle:hover{
+background: #2e99ef;
+}
+.row{
+margin-right: 0px;
+margin-left: 0px;
+}
+/******* ######## ******/
 
+i.fa.fa-4x.fa-motorcycle,i.fa.fa-4x.fa-phone,i.fa.fa-4x.fa-lock,i.fa.fa-4x.fa-tags{
+color: #0281b5;
+}
+#scrollUp {
+bottom: 20px;
+right: 20px;					
+border-radius: 5px;
+background-image:url(top1.png);
+height:38px;
+width:38px;
+}
+/*****  SLIDER ***/
+
+.slider-inline{
+margin:auto;
+position: relative;
+box-shadow: 0px 0px 10px 3px gray;
+overflow: hidden;
+display: list-item;
+margin-top: -17px;
+}
+.slider-inline figure{
+margin:0px;
+position: relative;
+width:500%;
+left:0px;
+transition: 1s ease-in-out;
+}
+.slider-inline figure img{
+width:20%;
+float:left;
+}
+#btn-next,#btn-prev{
+position: absolute;
+cursor: pointer;
+top: 45%;
+color:black;
+font-size: 30px;
+}
+#btn-next{
+right:0px;
+}
+
+#btn-prev{
+left:0px;
+}
+.slider-inline h3{
+position: absolute;
+display: auto;
+z-index:999;
+font-family: monospace;
+text-shadow: -12px 9px 3px #19bcd9;
+font-size: 25px;
+}
+
+
+ /************************************   service aria  ***************************8***** */
+
+.service-area h4,.service-area h3{
+justify-content: center;
+color:#0badca;
+ }
+.segment-one .segment-two .segment-three ,img{
+width:90px;
+display: flex;
+cursor: pointer;
+transition: all 1s;
+}
+
+.segment-one img:hover,.segment-two img:hover,.segment-three img:hover,.segment-four img:hover{
+transform: scale(1.2);	
+}
+
+.block-features__item-info{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: -54px;
+box-sizing: border-box;
+}
+.block-features__item-title {
+font-size: 18px;
+line-height: 1.125;
+padding: .1666666667em 0;
+font-weight: 500;
+}
+.block-features__item-subtitle{
+color: #6c757d;
+font-size: 15px;
+line-height: 1.25;
+padding: .1111111111em 0;
+text-align: center;
+}
+/*************************************  end service are ********************************/
+
+
+
+/* ######################################  FAqs section #################################### */
+#panel, #flip,#panel1,#flip1,#panel2,#flip2,#panel3,#flip3{
+padding: 5px;
+text-align: center;
+background-color: rgba(60,70,80,0.15);
+border: solid 1px #c3c3c3;
+line-height: 36px;
+font-size: 21px;
+display: flex;
+border-radius: 5px;
+padding-left: 15px;
+}
+#panel,#panel1,#panel2,#panel3{
+display: flex;
+font-size: 15px;
+display:none;
+background:white;
+}
+
+/*************************************** End FAQs section ***************************/
+
+/*************************************** footer section *****************************/
+footer{
+position: relative;
+bottom:0px;
+width:100%;
+background: #111;
+}
+.col-sm-4 h1{
+display: flex;
+text-transform: uppercase;
+border-bottom: 1px solid #bf6abd;
+}
+.col-sm-4 p{
+display: flex;
+}
+.contact-us1 p,h4{
+color:#19bcff;
+display: flex;
+}
+.social{
+text-align: left;
+margin-left: 15px;
+}
+.footer-bottom{
+text-align: center;
+background: gray;
+line-height: 40px;
+}
+.fa.fa-facebook,.fa.fa-instagram,.fa.fa-youtube,.fa.fa-twitter{
+height:40px;
+width:40px;
+background: #1a1a1a;
+text-align: center;
+line-height: 40px;
+font-size: 25px;
+transition: 1s;
+cursor: pointer;
+color:#337ab7;
+}
+.social .fa.fa-facebook:hover,.fa.fa-instagram:hover,.fa.fa-youtube:hover,.fa.fa-twitter:hover{
+background-color:#f12020;
+border-radius: 5px;
+}
+.about,.our,.shipping,.policy,.condition,.contact-us{
+text-align: left;
+transition: all .3s;
+}
+.fa.fa-user,.fa.fa-handshake-o,.fa.fa-car,.fa.fa-lock,.fa.fa-gavel,.fa.fa-phone{
+font-size: 1.7em;
+letter-spacing: 10px;
+}
+.about:hover,.our:hover,.shipping:hover,.policy:hover,.condition:hover,.contact-us:hover{
+margin-left: 15px;
+color:orange;
+}
+.logo .fa.fa-paypal,.fa.fa-google-wallet,.fa.fa-credit-card-alt,.fa.fa-credit-card,.fa.fa-cc-mastercard{
+height:40px;
+width:40px;
+background: #1a1a1a;
+line-height: 40px;
+font-size: 25px;
+transition: 1s;
+cursor: pointer;
+color:#337ab7;
+text-align: center;
+}
+.fa.fa-paypal:hover,.fa.fa-google-wallet:hover,.fa.fa-credit-card-alt:hover,.fa.fa-credit-card:hover,.fa.fa-cc-mastercard:hover{
+background-color:#f12020;
+border-radius: 5px;	
+}
+.transition-logo h4{
+text-transform: uppercase;
+color:#f0ad4e;
+}
+.footer-bottom p{
+color:black;
+text-align: center;
+}
+
+.upload-design p{
+font-size: 20px;
+text-transform: uppercase;
+padding-top: 10px;
+}
+.fa-hand-o-down{
+color:#19abc3;
+margin-top:5px;
+}
+
+/************************************end footer section  ******************************/
+
+/************************************ form section ***********************************/
+
+.col-sm-12{
+text-align: left;
+}
+.submit{
+text-align: left;
+border-spacing: 5px;
+margin-left: 15px;
+}
+#file{
+display: none;
+}
+label{
+color:white;
+background: #9c671c;
+justify-content: center;
+line-height: 40px;
+border-radius: 7px;
+align-items: center;
+padding: 0px 17px 0px 11px;
+font-family: "montserrat",monospace;
+float:left;
+margin-left: 14px;
+cursor: pointer;
+}
+/**************************************** End Form section*******************/
+.card{
+padding: 2px;
+background-color: #ffffff;
+margin-top:20px;
+
+
+}
+.card img{
+width: 100%;
+
+}
+.card p{
+text-align: left;
+}
+.col-sm-2{
+margin:auto;
+box-shadow: 6px 4px 6px 1px gray;
+margin-left:20px;
+overflow: hidden;
+display: list-item;
+}
+.row,.col-sm-2,.card{
+margin-left: 30px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+   .md-mb-30{
+   	margin-bottom: 30px;
+   }	
+}
+@media only screen and (max-width: 767px){
+	.sm-mb-30{
+		margin-bottom: 30px;
+	}
+	.row{
+		padding:50px 0px;
+	}
+}
