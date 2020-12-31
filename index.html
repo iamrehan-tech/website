@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>projects</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" type="text/css" href="bootstraps/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.1-web/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="dist/css/lightbox.min.css">
+<script src="jquery1/jquery.min.css"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle(1000);
+  });
+  $("#flip1").click(function(){
+    $("#panel1").slideToggle(1000);
+  });
+  $("#flip2").click(function(){
+    $("#panel2").slideToggle(1000);
+  });
+  $("#flip3").click(function(){
+    $("#panel3").slideToggle(1000);
+  });
+});
+</script>
+<script src="jquery/jquery.min.css"></script>
+<script>
+$(document).ready(function(){
+  x=0;
+  $("#btn-next").click(function(){
+     x=(x<=300)?(x+100):0;
+     $("figure").css("left",-x+"%");
+  });
+  $("#btn-prev").click(function(){
+     x=(x>=100)?(x-100):400;
+     $("figure").css("left",-x+"%");
+  });
+});
+</script>
+<script src="jquery.min.css"></script>
+  <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $(".col-sm-3:hidden").slice(0,4).show();
+    $("#btn").on("click",function(){
+    $(".col-sm-3:hidden").slice(0,4).show();
+          
+});
+});
+</script>
+<style>
+  #scrollUp {
+bottom: 20px;
+right: 20px;          
+border-radius: 5px;
+background-image:url(sliding-img/top1.png);
+height:38px;
+width:38px;
+}
+</style>
+<script src="jquery1/jquery.min.css"></script>
+  <script src="scrollup/jquery.scrollUp.min.js"></script>
+  <script>
+    $(function(){
+         $.scrollUp({
+            topDistance: 50,
+            scrollSpeed:1000,
+            //scrollText:'top',
+            scrollImg:true
+         });
+        });
+  </script>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+<a class="navbar-brand" href="#myPage" style="color:black;font-size: 40px;" class=".md-mb-30 .sm-mb-30">Logo</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+ <div class="dropdown">
+    <a href="#" style="color:black;"><button class="btn dropdown-toggle" id="first" type="button" data-toggle="dropdown0"><b>HOME</b></button></a>
+    <a href="#" style="color:black;"><button class="btn dropdown-toggle" type="button1" data-toggle="dropdown"><b>JEWELRY</b><span class="caret"></span></button></a>
+    <ul class="dropdown-menu">
+      <li style="text-decoration: underline;color:#0281b5;"><b>**  Sterling Silver  **</b></li>
+      <li><a href="#"><b style="color:#0281b5;">Earring</b></a></li>
+      <li><a href="#"><b style="color:#0281b5;">Ring</b></a></li>
+      <li><a href="#"><b style="color:#0281b5;">Necklace</b></a></li>
+      <li><a href="#"><b style="color:#0281b5;">Bracelet</b></a></li>
+      <li><a href="#"><b style="color:#0281b5;">Bangle</b></a></li>    
+    
+    </ul>
+    <a href="#about" style="color:black;"><button class="btn dropdown-toggle" type="button"><b>ABOUT</b></button></a>
+    
+ </div>
+</ul>
+</div>
+</nav>
+<img src="photos/logo.png" style="width:70px; position: absolute;top: 0px;left: 105px;">
+
+ <!--    SLIDER  -->
+
+
+  <div class="slider-inline">
+  <h3>Some Demo Design Here </h3> 
+  <figure>
+    <img src="sliding-img/golden.jpg" class="active">
+    <img src="sliding-img/golden-bst.jpg">
+    <img src="sliding-img/silver-round-ring.jpg">
+    <img src="sliding-img/triple-stone.jpg">
+    <img src="sliding-img/silver-ring.jpg">
+    
+  </figure>
+    <i class="fa  fa-arrow-circle-right" aria-hidden="true" id="btn-next"></i>
+  <i class="fa fa-arrow-circle-left" aria-hidden="true" id="btn-prev"></i>
+</div>
+
+
+ <!--****** service  ***  -->  
+
+
+
+<div class="container-fluid text-center" style="padding-right: 0px; padding-left: 0px;margin-right: auto;margin-left: auto;">             
+<div class="service-area">
+  <h3> Services<h4>We Provide It</h4></h3>
+
+</div>
+<div class="col-md-3 col-sm-7 col-xs-12 segment-one .md-mb-30 .sm-mb-30">
+<img src="photos/free.png">
+<div _ngcontent-serverapp-c108="" class="block-features__item-info">
+<div _ngcontent-serverapp-c108="" class="block-features__item-title"><b>Free Shipping</b></div>
+<div _ngcontent-serverapp-c108="" class="block-features__item-subtitle">For orders from $50</div>
+</div>
+  <br>                         
+</div>
+<div class="col-md-3 col-sm-7 col-xs-12 segment-two .md-mb-30 .sm-mb-30">
+<img src="photos/clock.png" style="width:70px;">
+<div _ngcontent-serverapp-c108="" class="block-features__item-info">
+<div _ngcontent-serverapp-c108="" class="block-features__item-title"><b>Support 24/7</b></div>
+<div _ngcontent-serverapp-c108="" class="block-features__item-subtitle">Call Us anytime</div>
+</div>
+<br>                          
+</div>
+<div class="col-md-3 col-sm-7 col-xs-12 segment-three .md-mb-30 .sm-mb-30">
+<img src="photos/mesg.png" style="width:70px;">
+<div _ngcontent-serverapp-c108="" class="block-features__item-info">
+<div _ngcontent-serverapp-c108="" class="block-features__item-title"><b>100% Safet</b></div>
+<div _ngcontent-serverapp-c108="" class="block-features__item-subtitle">Only Secure Payments</div>
+</div><br>                           
+</div>
+<div class="col-md-3 col-sm-7 col-xs-12 segment-four .md-mb-30 .sm-mb-30">
+<img src="photos/deal.png" style="margin-top: 20px;margin-left: -15px; width:120px;">
+<div _ngcontent-serverapp-c108="" class="block-features__item-info">
+<div _ngcontent-serverapp-c108="" class="block-features__item-title" style="margin-left: 20px;"><b>Hot Offer</b></div>
+<div _ngcontent-serverapp-c108="" class="block-features__item-subtitle" style="margin-left: 50px;">Discount Up To 90%.</div>
+</div>                            
+</div>
+</div>
+<!--**************  end service**********  -->
+
+
+<div class="container-fluid text-center">
+<h2> Featured Product</h2><br>
+<div class="col-sm-2" style="margin-left: 0px;">
+<div class="card" style="line-height: 20px;">
+<a class="example-image-link" href="photos/orange.jpg" data-lightbox="example-1">
+<img src="photos/orange.jpg" class="example-zoom"></a>
+<div class="caption">
+<p>Orange Emerald stone<br>Super Luxary</p>
+<h2 style="text-align: left;"> $50.00</h2>                
+</div>
+</div>
+</div>
+<div class="col-sm-2" style="margin-left: 0px;" >
+<div class="card">
+  <a class="example-image-link" href="photos/green.jpg" data-lightbox="example-5">
+<img src="photos/green.jpg" height=""></a>
+<p>Green Emerald stone<br>Luxary(Italic)</p>
+<h2 style="text-align: left;"> $60.00</h2> 
+</div>
+</div>
+<div class="col-sm-2" style="margin-left: 0px;">
+<div class="card" style="line-height: 22px;">
+<a class="example-image-link" href="photos/emr.jpg" data-lightbox="example-6">
+<img src="photos/emr.jpg"></a>
+<p>Real Emerald stone<br>Luxary(Berlin)</p>
+<h2 style="text-align: left;">$100.00</h2>
+</div>
+</div>
+<div class="col-sm-2" style="margin-left: 0px;">
+<div class="card" style="line-height: 26px;">
+<a class="example-image-link" href="photos/yellow.jpg" data-lightbox="example-3">
+<img src="photos/yellow.jpg"></a>
+<p>purple Tengenit stone <br>Cool Luxary</p>
+<h2 style="text-align: left;"> $34.00</h2> 
+</div>
+</div>
+<div class="col-sm-2" style="margin-left: 0px;">
+<div class="card">
+<a class="example-image-link" href="photos/ruby.jpg" data-lightbox="example-4">
+<img src="photos/ruby.jpg"></a>
+<p>Rose Emerald stone<br>Luxary(Austrilan)</p>
+<h2 style="text-align: left;"> $70.00</h2> 
+</div>
+</div>
+</div>
+<!--  ##############   FAQs ############# -->
+
+<div class="use">
+  <h2 style="text-align: center;"> FAQs</h2>
+   <div id="flip">what Are Gemstone?</div>
+   <div id="panel">Emerald is rare, but it is found on all five continents (Figure 2). Colombia, Brazil, Zambia, Russia, Zimbabwe, Madagascar, Pakistan, and Afghanistan (Figure 3) are the largest producers of emerald [5]. Emerald deposits occur mainly in the Precambrian series in Eastern Brazil, Eastern Africa, South Africa, Madagascar, India, and Australia, and younger volcano-sedimentary series or ophiolites in Bulgaria, Canada, China, India, Pakistan, Russia, and Spain. Colombian emerald deposits, which produce most of the world’s high-quality emeralds, are unique in that they are located in sedimentary rocks, i.e., the Lower Cretaceous black shales (BS) of the Eastern Cordillera basin. Other deposits are hosted in Alpine-type veins, also called Alpine-type clefts. Emerald is found in veins and cavities in the European Alps (Binntal) as well as in the United States (Hiddenite). Nigerian emeralds are unique and are located in pegmatitic pods.</div>
+  <div id="flip1">what in ths story of Gemstone?</div>
+  <div id="panel1">A tanzanite still continues to fascinate with its unusual, captivating aura. Its deep blue with the slightly purple tinge is one of the most fantastic colors known to Man. It personifies immaculate, yet unconventional elegance. A person who acquires one of these exclusive gems is someone who wishes to set himself apart from the hoi polloi and does exude confidence and a strong sense of individuality.</div>
+ <div id="flip2">why should you wear a Gemstone?</div>
+ <div id="panel2">The gemstone Ruby is a naturally occurring gemstone and gets its striking appearance from the deep, blood red colour that it portrays. Also known as Manik gemstone, it is a variant of the aluminium oxide.'
+One of the most precious and sought after gemstone available in the market today, this gemstone’s price is determined first by the redness and then by the cut and carat. The pigeon blood red ruby stone is considered to be one of the costliest.</div>
+
+<div id="flip3">why is buying a gemstones online fessible?</div>
+<div id="panel3">Tanzanite is a complex gemstone and researching its properties can be confusing, particularly online as there is so much conflicting information depending on where you look. This guide aims to create a definitive reference for those looking to understand Tanzanite quality and properties in order to purchase in a more informed manner. We crosslink to our series of gemologist written articles on Tanzanite to deepen your understanding further on each subject.</div>
+</div>
+<!--########### end faqs ########--->
+  
+
+<!-- FOOTER -->
+
+<span class="text" id="about"><h2 style="text-align: center;"> About Section</h2></span> 
+<footer>
+  <div class="row" style="margin-right: 0px; margin-left: 0px;">
+    <div class="col-sm-4 .md-mb-30 .sm-mb-30">              	
+        		<h1>&nbsp;Contact Us</h1>
+        		  <div class="contact-us1">
+        			 <p style="text-align: left;margin-left: 10px">Hi, we are always open for a companyand suggest contact us in one of the ways below.</p> 
+					    <h4>&nbsp;*Phone</h4>
+					    <p style="margin-top:-9px;"> &nbsp;&nbsp;+91&nbsp;&nbsp;7822072909</p>
+					    <h4>&nbsp;*E-Mail Address</h4>
+					    <p style="margin-top:-9px;">&nbsp;&nbsp;&nbsp;RehanIndia529@gmail.com </p>					    
+					    <h4>&nbsp;*Location</h4>
+					    <p style="margin-left: 10px;text-align: left;margin-top:-9px">H No 786, Imam chowk Bas Badanpura
+					    Outside chaar Darwaja Near Bas  Ki Puliya Jaipur, Rajesthan 302002</p>      
+					    <h4>&nbsp;*Follow Us</h4>
+					    <div class="social">
+					    <a href="#"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>				          		
+        </div>
+      </div>
+    </div>
+        <div class="col-sm-4 .md-mb-30 .sm-mb-30">     	
+              <h1>&nbsp;Information</h1>
+               	<div class="about">
+               		<i class="fa fa-user" aria-hidden="true"></i>
+               		<span class="text"><a style="text-decoration: none;cursor: pointer;">&nbsp;&nbsp;&nbsp; About Us</a></span>
+               	</div>
+               	<div class="our">
+               		<i class="fa fa-handshake-o" aria-hidden="true"></i>
+               		<span class="text"><a style="text-decoration: none;cursor: pointer;"> Our Promise</a></span>
+               	</div>
+               	<div class="shipping">
+               		<i class="fa fa-car" aria-hidden="true"></i>
+               		<span class="text"><a style="text-decoration: none;cursor: pointer;">&nbsp;Shipping Policy</a></span>
+               	</div>
+               	<div class="policy">
+               		<i class="fa fa-lock" aria-hidden="true"></i>
+               		<span class="text"><a style="text-decoration: none;cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</a></span>
+               	</div>
+               	<div class="condition">
+               		<i class="fa fa-gavel" aria-hidden="true"></i>
+               		<span class="text"><a style="text-decoration: none;cursor: pointer;">&nbsp;&nbsp;Terms & Condition</a></span>
+               	</div>
+               	<div class="contact-us">
+               		<i class="fa fa-phone" aria-hidden="true"></i>
+               		<span class="text"><a style="text-decoration: none;cursor: pointer;">&nbsp;&nbsp;&nbsp;Contact Us</a></span>
+               							
+               	</div>
+               	<h1 style="text-transform: uppercase;">&nbsp;Title About Us</h1>
+                <p style="color:#19bcff;"> &nbsp;&nbsp;&nbsp;&nbsp;Great Company Of Styleing & jewlery</p>
+                <div class="transition-logo">
+                	<h4>***Online payment Facility***</h4>
+                </div>
+                <div class="logo" style="text-align: left;">&nbsp;&nbsp;&nbsp;
+                	<i class="fa fa-paypal" aria-hidden="true"></i>
+                	<i class="fa fa-google-wallet" aria-hidden="true"></i>
+                	<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                	<i class="fa fa-credit-card" aria-hidden="true"></i>
+                	<i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+              </div>            
+           </div> 
+     <div class="col-sm-4 .md-mb-30 .sm-mb-30">
+        <div class="right-box">
+       	    <h1>&nbsp;Newsletter</h1>
+       	    <div class="content">
+       	    	<p style="color:#19bcff;text-align: left;">Enter Your emial address below to subscribe to our newsletter and keep up to date with disconnect and special offer.</p>
+       	    	<form method="post" onsubmit="myFunction()">
+       	    		<div class="email">
+                  <div class="col-sm-12 .md-mb-30 .sm-mb-30">
+       	    	<input type="email" name="email" class="form-control"  id="email" placeholder="user@gmail.com" required="">
+       	    	<div id="emler"></div><br>
+       	    </div>
+          </div>
+       	    
+            <div class="submit">
+                <button class="btn btn-warning" value="subscribe"><b>subscribe</b></button>
+              </div>
+            </form>
+            
+            <div class="upload-design">
+            <p>&nbsp;&nbsp;<i class="fa fa-hand-o-down" aria-hidden="true"></i>&nbsp;upload Your Design!!</p>
+            <input type="file" name="file" id="file">
+            <label for="file">
+              <i class="fa fa-file-image-o" aria-hidden="true"></i>
+              CHOOSE A FILE
+            </label>
+          </div>
+       	    </div>
+            </div>
+        	  </div>
+           </div>
+        <div class="footer-bottom">       
+<p><b style="color:#231fe4;">copyright</b> by @ all rights reserved-||<b style="color:#231fe4;">REHAN KHAN</b></p>
+</div>
+</footer> 
+<!--   ******  -->
+<!--  *******   Message ****** -->
+</body>
+</html>
